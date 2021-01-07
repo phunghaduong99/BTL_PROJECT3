@@ -94,7 +94,7 @@ INSERT INTO `districts` (`id`, `name`, `slug`, `created_at`, `updated_at`) VALUE
 (27, 'Thanh Trì', 'thanh-tri', NULL, NULL),
 (28, 'Thanh Xuân', 'thanh-xuan', NULL, NULL),
 (29, 'Thường Tín', 'thuong-tin', NULL, NULL),
-(30, 'Ứng Hòa', 'ung-hoa', NULL, NULL);
+    (30, 'Ứng Hòa', 'ung-hoa', NULL, NULL);
 
 
 -- --------------------------------------------------------

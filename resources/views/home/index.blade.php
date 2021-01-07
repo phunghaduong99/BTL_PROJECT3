@@ -223,7 +223,7 @@ function time_elapsed_string($datetime, $full = false) {
 								var map;
 								function initMap() {
 									map = new google.maps.Map(document.getElementById('map'), {
-										center: {lat: 21.028280, lng: 105.853880},
+										center: {lat: 21.002770, lng: 105.829070},
 										zoom: 15,
 										draggable: true
 									});
@@ -252,10 +252,10 @@ function time_elapsed_string($datetime, $full = false) {
 										content: 'bbbb'
 									},
 									{
-										lat: 16.066330603904397, 
-										lng: 108.2066632380371,
-										title: '33 Hoàng diệu',
-										content: 'bbbb'
+										lat: 20.964500,
+										lng: 105.866550,
+										title: 'Pháp Vân, Hoàng Mai, Hà Nội',
+										content: 'bbbbb'
 									}
 									];
 									console.log(javascript_array);
