@@ -227,7 +227,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `username`, `email`, `password`, `right`, `phone`, `avatar`, `remember_token`, `created_at`, `updated_at`, `tinhtrang`) VALUES
-(1, 'Thành Trung', 'admin', 'thanhtrungit.dev@gmail.com', '$2y$10$0U/rTGgDXcZFEz0VCRAX2umuSMpYCIWCfBj8WdPx6wj1eCf20P9ga', 1, NULL, 'avatar-admin-1526708699.jpg', 'NRwQx67cNhuCY0Zs92qKRusGZmYMA40QB0RrOdroYDLcMZOSnqDVrBJPUCRJ', '2018-05-18 22:44:01', '2018-05-18 22:44:59', 1),
+(1, 'duong dai ca', 'admin@gmail.com', 'phunghaduong99@gmail.com', '$2y$10$LEEPDPTd.4hEV50ywDbnhuYVrstBSHSHa16jgCGjiLzHKtoQUgRfu', 1, null, 'avatar-admin-1526708699.jpg', null, '2021-01-07 14:46:35', '2021-01-07 14:46:35', 1),
 (2, 'Tất Nhạc', 'tatnhac', 'tatnhac@gmail.com', '$2y$10$w68K356705u4SR1HUmzchOBR1nklo6yDvZ/VzvG0bhQRB9j4QFzwK', 0, NULL, 'no-avatar.jpg', 'j4m9NmrzLAKw6E6MxKE067XbMQegswMBoAjuC5PvnUcAjrF7FpZcPkfrqLbR', '2018-05-19 00:50:52', '2018-05-19 00:50:52', 1),
 (3, 'Văn Phúc', 'vanphuc', 'vanphuc@gmail.com', '$2y$10$Dbd1QmmlWGV.uYqi9KpTVuD2yKMgqs5fbHVNn5jMeOReaqh79T7gq', 0, NULL, 'no-avatar.jpg', 'BxvBGC60U40Wu1TADa2zk3MrPujWPoaymjboNSoCk9jQethQp2TXEXWO9EbG', '2018-05-19 01:02:17', '2018-05-19 01:02:17', 1),
 (4, 'Bảo Ngọc', 'baongoc', 'baongoc@gmail.com', '$2y$10$eMiGI1HA.u0IWJpLT1Wjlec3ojGbDhAmmnITN5Erga6t/GUpzjex.', 0, NULL, 'avatar-baongoc-1526717688.png', 'o9qTtYf2aoyY3imWqUmqLBkNoR7luVz3qoD3JslTmVpQyfapdx6JnZ0r3A9e', '2018-05-19 01:11:11', '2018-05-19 01:14:48', 1);

@@ -47,7 +47,7 @@ function searchMotelajax(){
                     else
                     	toastr.warning('Không tìm thấy kết quả nào');
                     map = new google.maps.Map(document.getElementById('map'), {
-										center: {lat: 16.070372, lng: 108.214388},
+										center: {lat: 21.002770, lng: 105.829070},
 										zoom: 15,
 										draggable: true
 									});

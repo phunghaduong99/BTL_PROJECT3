@@ -88,15 +88,15 @@ class MotelRoomsSeeder extends Seeder
         DB::table('motelrooms')->insert([
             ['title'=>'Cho thuê phòng trọ Định Công Hạ 25m²',
                 'description'=>'
-                    Phòng đâu mặt đường cho thuê.
-                    Địa chỉ: SN 18, ngách 99/110/65 định công hạ, hoàng mai, hà nội. 
-                    Không chung chủ, giờ giấc tự do.
-                    Ưu tiên ở hộ gia đình lâu dài.
-                    Giá: 2tr5
-                    Cọc 1 tháng: 2tr5.
-                    Có điều hoà, bình nóng lạnh, internet, giường, gác xép....
-                    Ảnh như hình đình kèm.
-                    Lh: chị Lan ',
+Phòng đâu mặt đường cho thuê.
+Địa chỉ: SN 18, ngách 99/110/65 định công hạ, hoàng mai, hà nội. 
+Không chung chủ, giờ giấc tự do.
+Ưu tiên ở hộ gia đình lâu dài.
+Giá: 2tr5
+Cọc 1 tháng: 2tr5.
+Có điều hoà, bình nóng lạnh, internet, giường, gác xép....
+Ảnh như hình đình kèm.
+Lh: chị Lan ',
                 'price' => 2500000,
                 'area' => 25,
                 'count_view' => 8,
@@ -106,7 +106,7 @@ class MotelRoomsSeeder extends Seeder
                 'user_id' => 1,
                 'category_id' => 1,
                 'district_id' => 14,
-                'utilities' => '{\"0\":\"Wifi mi\\u1ec5n ph\\u00ed\",\"1\":\"C\\u00f3 g\\u00e1c l\\u1eedng\",\"2\":\"Kh\\u00f4ng chung ch\\u1ee7\",\"3\":\"V\\u1ec7 sinh ri\\u00eang\"}',
+                'utilities' => '{"0":"Wifi mi\u1ec5n ph\u00ed","1":"C\u00f3 g\u00e1c l\u1eedng","2":"Kh\u00f4ng chung ch\u1ee7","3":"V\u1ec7 sinh ri\u00eang"}',
                 'created_at' => '2020-05-18 22:50:01',
                 'updated_at' => '2020-05-24 07:24:34',
                 'phone' => '0915325633',
@@ -114,16 +114,15 @@ class MotelRoomsSeeder extends Seeder
                 'slug' => 'cho-thue-phong-tro-25m2-hoangmai-hanoi',
                 ],
             ['title'=>'Cho thuê phòng trọ Tạ Quang Bửu 30m²',
-                'description'=>'
-                    Phòng đâu mặt đường cho thuê.
-                    Địa chỉ: 15 Tạ Quang Bửu, Hai Bà Trưng, Hà Nội. 
-                    Không chung chủ, giờ giấc tự do.
-                    Ưu tiên ở hộ gia đình lâu dài.
-                    Giá: 4tr5
-                    Cọc 1 tháng: 2tr5.
-                    Có điều hoà, bình nóng lạnh, internet, giường, gác xép....
-                    Ảnh như hình đình kèm.
-                    Lh: chị Phương ',
+                'description'=>'Phòng đâu mặt đường cho thuê.
+Địa chỉ: 15 Tạ Quang Bửu, Hai Bà Trưng, Hà Nội. 
+Không chung chủ, giờ giấc tự do.
+Ưu tiên ở hộ gia đình lâu dài.
+Giá: 4tr5
+Cọc 1 tháng: 2tr5.
+Có điều hoà, bình nóng lạnh, internet, giường, gác xép....
+Ảnh như hình đình kèm.
+Lh: chị Phương ',
                 'price' => 4500000,
                 'area' => 30,
                 'count_view' => 9,
@@ -133,7 +132,7 @@ class MotelRoomsSeeder extends Seeder
                 'user_id' => 1,
                 'category_id' => 2,
                 'district_id' => 11,
-                'utilities' => '{\"0\":\"Wifi mi\\u1ec5n ph\\u00ed\",\"1\":\"C\\u00f3 g\\u00e1c l\\u1eedng\",\"2\":\"Kh\\u00f4ng chung ch\\u1ee7\",\"3\":\"V\\u1ec7 sinh ri\\u00eang\"}',
+                'utilities' => '{"0":"Wifi mi\u1ec5n ph\u00ed","1":"C\u00f3 g\u00e1c l\u1eedng","2":"Kh\u00f4ng chung ch\u1ee7","3":"V\u1ec7 sinh ri\u00eang"}',
                 'created_at' => '2020-10-18 22:50:01',
                 'updated_at' => '2020-11-24 07:24:34',
                 'phone' => '0915325634',
@@ -141,16 +140,15 @@ class MotelRoomsSeeder extends Seeder
                 'slug' => 'cho-thue-phong-tro-30m2-haibatrung-hanoi',
             ],
             ['title'=>'Cho thuê phòng trọ Long Biên 50m²',
-                'description'=>'
-                    Phòng đâu mặt đường cho thuê.
-                    Địa chỉ: Số Nhà 6 Ngách 15 Ngõ 193 Phúc Lợi Quận Long Biên Hà Nội. 
-                    Không chung chủ, giờ giấc tự do.
-                    Ưu tiên ở hộ gia đình lâu dài.
-                    Giá: 7tr5
-                    Cọc 1 tháng: 6tr5.
-                    Có điều hoà, bình nóng lạnh, internet, giường, gác xép....
-                    Ảnh như hình đình kèm.
-                    Lh: chị Phương ',
+                'description'=>'Phòng đâu mặt đường cho thuê.
+Địa chỉ: Số Nhà 6 Ngách 15 Ngõ 193 Phúc Lợi Quận Long Biên Hà Nội. 
+Không chung chủ, giờ giấc tự do.
+Ưu tiên ở hộ gia đình lâu dài.
+Giá: 7tr5
+Cọc 1 tháng: 6tr5.
+Có điều hoà, bình nóng lạnh, internet, giường, gác xép....
+Ảnh như hình đình kèm.
+Lh: chị Phương ',
                 'price' => 7500000,
                 'area' => 50,
                 'count_view' => 9,
@@ -160,24 +158,24 @@ class MotelRoomsSeeder extends Seeder
                 'user_id' => 1,
                 'category_id' => 3,
                 'district_id' => 15,
-                'utilities' => '{\"0\":\"Wifi mi\\u1ec5n ph\\u00ed\",\"1\":\"C\\u00f3 g\\u00e1c l\\u1eedng\",\"2\":\"Kh\\u00f4ng chung ch\\u1ee7\",\"3\":\"V\\u1ec7 sinh ri\\u00eang\"}',
+                'utilities' => '{"0":"Wifi mi\u1ec5n ph\u00ed","1":"C\u00f3 g\u00e1c l\u1eedng","2":"Kh\u00f4ng chung ch\u1ee7","3":"V\u1ec7 sinh ri\u00eang"}',
                 'created_at' => '2020-12-18 22:50:01',
                 'updated_at' => '2020-12-24 07:24:34',
                 'phone' => '0915326634',
                 'approve' => 1,
                 'slug' => 'cho-thue-phong-tro-50m2-longbien-hanoi',
             ],
-            ['title'=>'Cho thuê phòng trọ Long Biên 50m²',
+            ['title'=>'Cho thuê phòng trọ  Đống Đa 50m²',
                 'description'=>'
-                    Phòng đâu mặt đường cho thuê.
-                    Địa chỉ: Số nhà 6, Ngách 41/15, Ngõ thái thịnh 1 , Phố Thái Thịnh 1, Phường Thịnh Quang, Quận Đống Đa, Thành phố Hà Nội. 
-                    Không chung chủ, giờ giấc tự do.
-                    Ưu tiên ở hộ gia đình lâu dài.
-                    Giá: 6tr5
-                    Cọc 1 tháng: 3tr5.
-                    Có điều hoà, bình nóng lạnh, internet, giường, gác xép....
-                    Ảnh như hình đình kèm.
-                    Lh: chị Phương ',
+Phòng đâu mặt đường cho thuê.
+Địa chỉ: Số nhà 6, Ngách 41/15, Ngõ thái thịnh 1 , Phố Thái Thịnh 1, Phường Thịnh Quang, Quận Đống Đa, Thành phố Hà Nội. 
+Không chung chủ, giờ giấc tự do.
+Ưu tiên ở hộ gia đình lâu dài.
+Giá: 6tr5
+Cọc 1 tháng: 3tr5.
+Có điều hoà, bình nóng lạnh, internet, giường, gác xép....
+Ảnh như hình đình kèm.
+Lh: chị Phương ',
                 'price' => 6500000,
                 'area' => 45,
                 'count_view' => 19,
@@ -187,7 +185,7 @@ class MotelRoomsSeeder extends Seeder
                 'user_id' => 1,
                 'category_id' => 4,
                 'district_id' => 8,
-                'utilities' => '{\"0\":\"Wifi mi\\u1ec5n ph\\u00ed\",\"1\":\"C\\u00f3 g\\u00e1c l\\u1eedng\",\"2\":\"Kh\\u00f4ng chung ch\\u1ee7\",\"3\":\"V\\u1ec7 sinh ri\\u00eang\"}',
+                'utilities' => '{"0":"Wifi mi\u1ec5n ph\u00ed","1":"C\u00f3 g\u00e1c l\u1eedng","2":"Kh\u00f4ng chung ch\u1ee7","3":"V\u1ec7 sinh ri\u00eang"}',
                 'created_at' => '2020-10-18 22:50:01',
                 'updated_at' => '2020-10-24 07:24:34',
                 'phone' => '0915321634',

@@ -159,7 +159,7 @@
   var marker;
   function initialize() {
     var mapOptions = {
-      center: {lat: 16.070372, lng: 108.214388},
+      center: {lat: 21.002770, lng: 105.829070},
       zoom: 12
     };
     map = new google.maps.Map(document.getElementById('map-canvas'),
@@ -205,11 +205,10 @@
     } else {
       var content = 'Error: Your browser doesn\'t support geolocation.';
     }
-
     var options = {
       map: map,
       zoom: 19,
-      position: new google.maps.LatLng(16.070372,108.214388),
+      position: new google.maps.LatLng(21.002770,105.829070),
       content: content
     };
 
